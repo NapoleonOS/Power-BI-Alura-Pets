@@ -25,7 +25,6 @@ O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia 
 
 ![image](https://user-images.githubusercontent.com/128874237/228074920-a85d9440-6aa9-4855-847b-e98dcc51b9ba.png)
 ![image](https://user-images.githubusercontent.com/128874237/228074796-75261d2a-8bb9-44fb-a157-2e8aa18e2466.png)
-<br>
 ![image](https://user-images.githubusercontent.com/128874237/228075083-96d225f3-09b7-4315-900c-742c4332409c.png)
 
 <br>
@@ -41,6 +40,27 @@ O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia 
 
 ![image](https://user-images.githubusercontent.com/128874237/228077816-7c0dc100-c151-46da-a29b-b87df272832f.png)
 ![image](https://user-images.githubusercontent.com/128874237/228077890-a8c60996-7dc0-435e-b1a5-ed28b3313ea8.png)
+
+<p> Para a realização da visualização do faturamento total por mês e ano, foi escolhido um gráfico de área, que combina muito com esse tipo de informação, nos permitindo visualizar muito bem a evolução com o passar do tempo. Como parâmetros para esse modelo de visualização, teremos as Datas e novamente o Faturamento total.
+
+![image](https://user-images.githubusercontent.com/128874237/228079439-67e8b555-62d0-4375-8458-b3da96a87f24.png)
+![image](https://user-images.githubusercontent.com/128874237/228079336-50fed7c0-6621-4da5-ad00-7045a76100fe.png)
+
+<p> Por último, mas não menos importante, temos a visualização por produto. Fou utilizado um "Text Filter" para realizar a filtragem. Logo abaixo temos a opção de clicar na imagem do produto para uma pesquisa mais interativa que foi feita utilizando o Image Grid, que utilizam como parâmetro a URL do item. Para isso basta ter em alguma das tabelas a url referente a imagem dos produtos. </p>
+
+![image](https://user-images.githubusercontent.com/128874237/228079965-5e58e7dd-4401-4e3e-9f38-b968fa949689.png)
+
+<p> Ao selecionar um dos produtos, ele demonstra em todos os gráficos o valor respectivo aquele item, alterando também os valores nos cartões, permitindo uma análise item a item para verificar o rendimento. </p>
+
+![image](https://user-images.githubusercontent.com/128874237/228080349-5f8fcdc3-9f8a-41ae-a7dc-922efecf9c6f.png)
+
+<p> Lembrando que essa conexão entre os gráficos só pode ser realizado com as conexões estratégicas do modelo. Nesse projeto realizamos relações entre três tabelas, que possuiam a mesma informação. Segue exemplo:
+
+![image](https://user-images.githubusercontent.com/128874237/228080678-1800fd1e-02f7-479e-8e7c-eb125f0914d3.png)
+
+
+
+
 
 
 
