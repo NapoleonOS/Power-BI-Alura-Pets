@@ -28,9 +28,23 @@ O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia 
 <br>
 ![image](https://user-images.githubusercontent.com/128874237/228075083-96d225f3-09b7-4315-900c-742c4332409c.png)
 
+<br>
+  
+<p> Para desenvolver uma visualização de faturamento dividido por gênero, foi solicitado um gráfico de pizza, onde os parâmetros seriam o Gênero, e a Soma do Faturamento. (não costumo utilizar esse tipo de gráfico) </p>
 
-
+![image](https://user-images.githubusercontent.com/128874237/228077328-2e287278-2e15-4b72-b717-f6261168a043.png)
+![image](https://user-images.githubusercontent.com/128874237/228077128-8eb64982-750f-4f1e-805a-45534ee2ef69.png)
 
 <br>
+
+<p> Para representar o faturamento total por bairro, foi selecionado um gráfico de barras clusterizado, possibilitando uma visualização simples e objetiva. Foram utilizados como parâmetros o Bairro no Eixo Y, e o Faturamento total no Eixo X. </p>
+
+![image](https://user-images.githubusercontent.com/128874237/228077816-7c0dc100-c151-46da-a29b-b87df272832f.png)
+![image](https://user-images.githubusercontent.com/128874237/228077890-a8c60996-7dc0-435e-b1a5-ed28b3313ea8.png)
+
+
+
+
+
 
 
