@@ -1,5 +1,5 @@
-# Formação Power BI Alura
-<h2>Projetos desenvolvidos durante a formação de Power BI da plataforma Alura </h2>
+# Alura Pets / POWER BI
+<h2>Projeto desenvolvido durante a formação de Power BI da plataforma Alura </h2>
 
 
 <p>
