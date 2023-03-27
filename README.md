@@ -1,15 +1,17 @@
 # Alura Pets / POWER BI
-<h2>Projeto desenvolvido durante a formação de Power BI da plataforma Alura </h2>
+<h4>Projeto desenvolvido durante a formação de Power BI da plataforma Alura </h4>
 
-
+<h2>O que é</h2>
 <p>
-O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia principal era colocar em evidência o faturamento da loja.
+O primeiro projeto foi o Dashboard Alura Pets, que teve como objetivo demonstrar de forma clara o faturamento da empresa, para ajudar e melhorar tomada de decisões. Durante o curso foram feitas diversas análises de acordo com o desempenho e foram levantados diversos pontos que detalharei de acordo com as visualizações. Em seguida o resultado final do projeto:
 </p>
 
 ![image](https://user-images.githubusercontent.com/128874237/228070868-12773585-65dc-4784-93c0-134483388827.png)
 <br>
 
-<p> Foram utilizados Cartões para representar os valores únicos como "Faturamento Total", "Quantidade de produtos vendidos", e uma "Média de Pets/Clientes"; </p>
+<h2>Primeiro Passo: Cartões</h2>
+
+<p> Inicialmente foram utilizados os "Cartões" para representar os valores únicos como "Faturamento Total", "Quantidade de produtos vendidos", e uma "Média de Pets/Clientes", os valores se encontram no topo do Dash, permitindo uma fácil visualização e compreensão por parte do público; </p>
 
 ![image](https://user-images.githubusercontent.com/128874237/228075331-22565eb1-a7eb-4d4e-be71-15c6715480c0.png)
 ![image](https://user-images.githubusercontent.com/128874237/228075471-5f527659-972a-4887-b47d-7482710e7bd2.png)
@@ -17,17 +19,20 @@ O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia 
 ![image](https://user-images.githubusercontent.com/128874237/228072972-8a8cea4a-29a0-4fa4-bdb9-78581ef3e28e.png)
 <br>
 
+<h2>Segundo Passo: Segmentação de Dados</h2>
+
 <p> Logo a direita, foi realizado um campo com a data de compra, sendo possível filtrar por um determinado período. Foi realizado com uma simples segmentação de dados, incluindo como valor as colunas de "Data de compra". </p> 
 
-<br>
-
 <p> O mesmo serve para a seleção do campo "Marca" logo ao lado, possibilitando uma filtragem por uma marca específica de produtos da loja. Também foi realizado com uma segmentação de dados, porém no campo de valores, foi selecionado a coluna contendo as marcas de fato.
+
 
 ![image](https://user-images.githubusercontent.com/128874237/228074920-a85d9440-6aa9-4855-847b-e98dcc51b9ba.png)
 ![image](https://user-images.githubusercontent.com/128874237/228074796-75261d2a-8bb9-44fb-a157-2e8aa18e2466.png)
 ![image](https://user-images.githubusercontent.com/128874237/228075083-96d225f3-09b7-4315-900c-742c4332409c.png)
 
 <br>
+
+<h2>Terceiro Passo: Gráfico de Pizza</h2>
   
 <p> Para desenvolver uma visualização de faturamento dividido por gênero, foi solicitado um gráfico de pizza, onde os parâmetros seriam o Gênero, e a Soma do Faturamento. (não costumo utilizar esse tipo de gráfico) </p>
 
@@ -36,15 +41,25 @@ O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia 
 
 <br>
 
+<h2>Quarto Passo: Gráfico de Barras Clusterizado</h2>
+
 <p> Para representar o faturamento total por bairro, foi selecionado um gráfico de barras clusterizado, possibilitando uma visualização simples e objetiva. Foram utilizados como parâmetros o Bairro no Eixo Y, e o Faturamento total no Eixo X. </p>
 
 ![image](https://user-images.githubusercontent.com/128874237/228077816-7c0dc100-c151-46da-a29b-b87df272832f.png)
 ![image](https://user-images.githubusercontent.com/128874237/228077890-a8c60996-7dc0-435e-b1a5-ed28b3313ea8.png)
 
+<br>
+
+<h2>Quinto Passo: Gráfico de Área</h2>
+
 <p> Para a realização da visualização do faturamento total por mês e ano, foi escolhido um gráfico de área, que combina muito com esse tipo de informação, nos permitindo visualizar muito bem a evolução com o passar do tempo. Como parâmetros para esse modelo de visualização, teremos as Datas e novamente o Faturamento total.
 
 ![image](https://user-images.githubusercontent.com/128874237/228079439-67e8b555-62d0-4375-8458-b3da96a87f24.png)
 ![image](https://user-images.githubusercontent.com/128874237/228079336-50fed7c0-6621-4da5-ad00-7045a76100fe.png)
+
+<br>
+
+<h2>Sexto Passo: Filtragem de Produtos</h2>
 
 <p> Por último, mas não menos importante, temos a visualização por produto. Fou utilizado um "Text Filter" para realizar a filtragem. Logo abaixo temos a opção de clicar na imagem do produto para uma pesquisa mais interativa que foi feita utilizando o Image Grid, que utilizam como parâmetro a URL do item. Para isso basta ter em alguma das tabelas a url referente a imagem dos produtos. </p>
 
@@ -53,6 +68,10 @@ O primeiro projeto foi a realização de um dashboard para um Pet-Shop, a ideia 
 <p> Ao selecionar um dos produtos, ele demonstra em todos os gráficos o valor respectivo aquele item, alterando também os valores nos cartões, permitindo uma análise item a item para verificar o rendimento. </p>
 
 ![image](https://user-images.githubusercontent.com/128874237/228080349-5f8fcdc3-9f8a-41ae-a7dc-922efecf9c6f.png)
+
+<br>
+
+<h2>Lembrete: Relações</h2>
 
 <p> Lembrando que essa conexão entre os gráficos só pode ser realizado com as conexões estratégicas do modelo. Nesse projeto realizamos relações entre três tabelas, que possuiam a mesma informação. Segue exemplo:
 
